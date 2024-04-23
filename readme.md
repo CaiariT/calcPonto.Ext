@@ -32,8 +32,7 @@ Sinta-se à vontade para contribuir com melhorias para este projeto. Você pode 
 
 ## Autor
 
-[Seu Nome](https://github.com/CaiariT)
+[Caiari Tolotti](https://github.com/CaiariT)
 
 ## Licença
-
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
