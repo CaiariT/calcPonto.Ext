@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Calculador Ponto",
+    "version": "1.0",
+    "description": "Calcula o tempo trabalhado",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "img/ct 16.png",
+        "48": "img/ct 48.png",
+        "128": "img/ct 128.png"
+      }
+    },
+    "icons": {
+      "16": "img/ct 16.png",
+      "48": "img/ct 48.png",
+      "128": "img/ct 128.png"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["js/script.js"]
+    }]    
+  }
+  
