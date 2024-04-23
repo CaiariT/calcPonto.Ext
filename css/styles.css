@@ -16,6 +16,7 @@
 
 .input-group {
     margin-bottom: 10px;
+    font-size: 16px;
 }
 
 .input-group label {
@@ -25,6 +26,7 @@
 
 .input-group input[type="time"] {
     width: calc(100% - 10px); 
+    font-size: 14px;
 }
 
 #calcular {
@@ -35,8 +37,20 @@
     color: #fff;
     border: none;
     cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px; 
 }
 
-#resultado {
+.resultado {
     margin-top: 20px;
+    font-size: 12px;
+}
+
+#tempoTotalLabel {
+    font-size: 18px;
+}
+
+#tempoTotal {
+    font-size: 25px;
+    font-weight: bold;
 }

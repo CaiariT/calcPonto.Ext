@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Ponto</title>
+    <title>Calculadora Ponto</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
             <input type="time" id="saida">
         </div>
         <div class="input-group">
-            <label for="inicioAlmoco">Entrada:</label>
+            <label for="inicioAlmoco">Entrada:</label> 
             <input type="time" id="inicioAlmoco">
         </div>
         <div class="input-group">
@@ -26,7 +26,9 @@
             <input type="time" id="fimAlmoco">
         </div>
         <button id="calcular">Calcular</button>
-        <div id="resultado"></div>
+        <div class="resultado">
+            <p><span id="tempoTotalLabel">Tempo Total:</span> <span id="tempoTotal"></span></p>
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>
